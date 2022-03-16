@@ -1,0 +1,364 @@
+/*{
+ 
+  box-sizing: border-box;
+  background-color: #dee4e6;
+}*/
+/*slot machine css start here*/
+.slotm{
+  width: 50%;
+  height:auto;
+  background-color: aquamarine;
+ margin: 50px 330px;
+
+}
+/*slot machine css end here*/
+
+  .img2{
+    margin: 40px;
+  }
+
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(235, 168, 168);
+    }
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+  
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .topnav .icon {
+      display: none;
+    }
+    
+    .center_time{
+      display: flex;
+
+    }
+    /*
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }*/
+/* style jsx start here */
+/*
+body{
+  background-color: lightseagreen;
+  width: 100%;
+  height: auto;
+  font-family: 'Sansita Swashed', cursive;
+  font-family: 'Syne Mono', monospace;
+  background-image:" https://www.bing.com/images/search?view=detailV2&ccid=3a%2F5dTvv&id=7DF82C7F00C1676A1AB3B72BCD58E52FAFE74447&thid=OIP.3a_5dTvvXiUnOpcW3Itq9AHaFj&mediaurl=https%3A%2F%2Fwww.wallpapers13.com%2Fwp-content%2Fuploads%2F2018%2F09%2Fwallpaper.wiki-Cool-Nature-Backgrounds-For-Desktop-2048x1174-PIC-WPD0010113-1600x1200.jpg&exph=1200&expw=1600&q=background+images&simid=608052431753916927&form=IRPRST&ck=79C71B2915D0554432D475129E3A2D7B&selectedindex=11&ajaxhist=0&ajaxserp=0&vt=0&sim=11";
+}
+
+img{
+  margin: 40px;
+}*/
+/* style jsx end  here */
+
+
+.heading_style{
+  padding: 30px 0;
+  text-align: center;
+  font-family:"Relway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: bold;  
+  color: #868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  
+}
+.para_net{
+  padding: 30px 0;
+  text-align: center;
+  font-family:"Relway", sans-serif;
+  text-transform: uppercase;
+  font-size: 5px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color:black;
+  background-color: #fff;
+  font-size: 0.8rem;
+  margin-bottom: 30px;
+}
+.cards{
+  width: 100%;
+  height: auto;
+
+
+}
+.smallh3{
+  text-align: center;
+  align-items: center;
+  display: flex;
+  margin-left: 
+  50px;
+
+
+}
+.card{
+  margin: 80px;
+  transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+  background-color: #fff;
+  width: 21.25%;
+  border-radius: 12px;
+  box-shadow: 0px 13px 10px -7px rgba(0.175, 0.885, 0, 1);
+  float: left;
+}
+.card:hover{
+  box-shadow: 0px 30px 18px -8px rgba(0.175, 0.885, 0, 1);
+  transform: translateY(-50px);
+  
+}
+
+.card_img{
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.card_info{
+  background-color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+.card_catagary{
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+}
+.card_title{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family:"Raleway", sans-serif;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+button{
+  padding: 5px 8px;
+  font-family:"Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #868686;
+  color: #fff;
+
+}
+.horiz{
+  width: 50%;
+}
+
+
+
+
+
+/*
+@media (max-width:760px){
+.card{
+  float: none;
+  margin: 5%;
+  width: 90%;
+}
+}
+  */
+
+
+
+
+
+
+/*  
+
+ul {
+  list-style-type: none;
+  /*
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:grey;
+  width :100%;
+  
+  
+  
+}
+
+li {
+  float: right;
+ margin-right: 50px;
+
+}
+
+li a {
+  display: block;
+  padding: 15px;
+ text-decoration: none;
+ color:aquamarine;
+ text-transform: capitalize;
+ font-weight: bold;
+ font-size: 20px;
+
+  
+}
+
+ul a img{
+  width:100px;
+  height: 80px;
+ margin-left:  40px;
+ border-radius: 40px;
+}
+.set_img {
+  margin-top: 40px;
+  margin-left: 130px;
+}
+.btn_{
+  background-color: aquamarine;
+  color:black;
+  padding: 15px 10px;
+  border: none;
+  margin-left:40%;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.btn_:hover {
+  color:aquamarine;
+  background-color:black ;
+}
+.set_img a{
+  margin: 10px;
+}
+*/
+
+/*
+body{
+  background-color: aquamarine;
+  box-sizing: border-box;
+  font-family: 'Licorice', cursive;
+}*/
+
+/*
+body{
+  width: 100%;
+  height:100vh;
+  background-color: aquamarine;
+}
+div{
+  
+}
+div h2{
+  padding-top:200px;
+  color: rgb(197, 127, 255);
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+h3{
+ 
+  color: rgb(197, 127, 255);
+  display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+h6{
+color:rgb(11, 12, 10);
+letter-spacing: 2px;
+font-size: 20px;; 
+display: flex;
+justify-content: center;
+align-items: center;
+
+  
+}
+
+.tabl{
+  margin-top: 20px;
+}
+tr{
+  border: 2px solid blanchedalmond;
+}
+td{
+  border: 2px solid blanchedalmond;
+  
+}th{
+  border: 2px solid blanchedalmond;
+
+}
+button{
+  margin-left:  20px;
+}
+/*
+div h4{
+  
+}*/
+/*
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}*/
+
+/*.heading{
+
+  color: aquamarine;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 50px 0;
+  font-family: 'Licorice', cursive;
+}*/
+/*
+.div_img{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+
+}
+*/
+ 
